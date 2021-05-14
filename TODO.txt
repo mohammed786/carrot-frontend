@@ -1,0 +1,19 @@
+Later:
+
+* tuning of labels (label set comparison)
+* visualization coloring by document attributes
+
+
+Later:
+* Check background color on Circles export when implemented.
+* Single document preview
+* Mobile version
+* Close popovers on Esc (should work, might be a BlueprintJS bug)
+* Polish numeric inputs (min/max, enforce on keyboard input, NaN when typing "-")
+* Error handling
+  * Option to copy error message to clipboard
+
+
+Performance:
+* Changing source or cluster view re-renders the whole application.
+  Check if this can be reasonably contained to the actual components involved.
